@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>header1</key>
+		<integer>1</integer>
+		<key>header2</key>
+		<string>banana</string>
+		<key>header3</key>
+		<string>N99709</string>
+	</dict>
+	<dict>
+		<key>header1</key>
+		<integer>2</integer>
+		<key>header2</key>
+		<string>apple</string>
+		<key>header3</key>
+		<string>column3</string>
+	</dict>
+	<dict>
+		<key>header1</key>
+		<integer>3</integer>
+		<key>header2</key>
+		<string>cocoa</string>
+		<key>header3</key>
+		<string>no3column3</string>
+	</dict>
+</array>
+</plist>

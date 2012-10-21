@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2819DA0C163435DC00A26532 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2819DA0B163435DC00A26532 /* Foundation.framework */; };
+		2819DA0F163435DC00A26532 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819DA0E163435DC00A26532 /* main.m */; };
+		2819DA13163435DD00A26532 /* csv2plist.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2819DA12163435DD00A26532 /* csv2plist.1 */; };
+		2819DA2D1634363000A26532 /* ConverterDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819DA1F1634363000A26532 /* ConverterDirector.m */; };
+		2819DA2E1634363000A26532 /* CSVParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819DA211634363000A26532 /* CSVParser.m */; };
+		2819DA2F1634363000A26532 /* CSVReadingState.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819DA231634363000A26532 /* CSVReadingState.m */; };
+		2819DA301634363000A26532 /* PlistObjectTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819DA251634363000A26532 /* PlistObjectTranslator.m */; };
+		2819DA311634363000A26532 /* XMLConverter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819DA271634363000A26532 /* XMLConverter.m */; };
+		2819DA321634363000A26532 /* NSObject+ConvertExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819DA2A1634363000A26532 /* NSObject+ConvertExtension.m */; };
+		2819DA331634363000A26532 /* NSString+ConvertExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2819DA2C1634363000A26532 /* NSString+ConvertExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2819DA05163435DC00A26532 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				2819DA13163435DD00A26532 /* csv2plist.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2819DA07163435DC00A26532 /* csv2plist */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = csv2plist; sourceTree = BUILT_PRODUCTS_DIR; };
+		2819DA0B163435DC00A26532 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2819DA0E163435DC00A26532 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2819DA11163435DC00A26532 /* csv2plist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "csv2plist-Prefix.pch"; sourceTree = "<group>"; };
+		2819DA12163435DD00A26532 /* csv2plist.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = csv2plist.1; sourceTree = "<group>"; };
+		2819DA1E1634363000A26532 /* ConverterDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterDirector.h; sourceTree = "<group>"; };
+		2819DA1F1634363000A26532 /* ConverterDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterDirector.m; sourceTree = "<group>"; };
+		2819DA201634363000A26532 /* CSVParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVParser.h; sourceTree = "<group>"; };
+		2819DA211634363000A26532 /* CSVParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVParser.m; sourceTree = "<group>"; };
+		2819DA221634363000A26532 /* CSVReadingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSVReadingState.h; sourceTree = "<group>"; };
+		2819DA231634363000A26532 /* CSVReadingState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSVReadingState.m; sourceTree = "<group>"; };
+		2819DA241634363000A26532 /* PlistObjectTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlistObjectTranslator.h; sourceTree = "<group>"; };
+		2819DA251634363000A26532 /* PlistObjectTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlistObjectTranslator.m; sourceTree = "<group>"; };
+		2819DA261634363000A26532 /* XMLConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLConverter.h; sourceTree = "<group>"; };
+		2819DA271634363000A26532 /* XMLConverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLConverter.m; sourceTree = "<group>"; };
+		2819DA291634363000A26532 /* NSObject+ConvertExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ConvertExtension.h"; sourceTree = "<group>"; };
+		2819DA2A1634363000A26532 /* NSObject+ConvertExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ConvertExtension.m"; sourceTree = "<group>"; };
+		2819DA2B1634363000A26532 /* NSString+ConvertExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ConvertExtension.h"; sourceTree = "<group>"; };
+		2819DA2C1634363000A26532 /* NSString+ConvertExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ConvertExtension.m"; sourceTree = "<group>"; };
+		2819DA37163436E400A26532 /* sample.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sample.csv; sourceTree = "<group>"; };
+		2819DA38163436E400A26532 /* sample.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sample.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2819DA04163435DC00A26532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2819DA0C163435DC00A26532 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2819D9FC163435DC00A26532 = {
+			isa = PBXGroup;
+			children = (
+				2819DA0D163435DC00A26532 /* csv2plist */,
+				2819DA0A163435DC00A26532 /* Frameworks */,
+				2819DA08163435DC00A26532 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2819DA08163435DC00A26532 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2819DA07163435DC00A26532 /* csv2plist */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2819DA0A163435DC00A26532 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2819DA0B163435DC00A26532 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2819DA0D163435DC00A26532 /* csv2plist */ = {
+			isa = PBXGroup;
+			children = (
+				2819DA0E163435DC00A26532 /* main.m */,
+				2819DA1D1634363000A26532 /* ConverterCore */,
+				2819DA281634363000A26532 /* Utility */,
+				2819DA35163436E400A26532 /* Sample File */,
+				2819DA12163435DD00A26532 /* csv2plist.1 */,
+				2819DA10163435DC00A26532 /* Supporting Files */,
+			);
+			path = csv2plist;
+			sourceTree = "<group>";
+		};
+		2819DA10163435DC00A26532 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2819DA11163435DC00A26532 /* csv2plist-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2819DA1D1634363000A26532 /* ConverterCore */ = {
+			isa = PBXGroup;
+			children = (
+				2819DA1E1634363000A26532 /* ConverterDirector.h */,
+				2819DA1F1634363000A26532 /* ConverterDirector.m */,
+				2819DA201634363000A26532 /* CSVParser.h */,
+				2819DA211634363000A26532 /* CSVParser.m */,
+				2819DA221634363000A26532 /* CSVReadingState.h */,
+				2819DA231634363000A26532 /* CSVReadingState.m */,
+				2819DA241634363000A26532 /* PlistObjectTranslator.h */,
+				2819DA251634363000A26532 /* PlistObjectTranslator.m */,
+				2819DA261634363000A26532 /* XMLConverter.h */,
+				2819DA271634363000A26532 /* XMLConverter.m */,
+			);
+			path = ConverterCore;
+			sourceTree = "<group>";
+		};
+		2819DA281634363000A26532 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				2819DA291634363000A26532 /* NSObject+ConvertExtension.h */,
+				2819DA2A1634363000A26532 /* NSObject+ConvertExtension.m */,
+				2819DA2B1634363000A26532 /* NSString+ConvertExtension.h */,
+				2819DA2C1634363000A26532 /* NSString+ConvertExtension.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		2819DA35163436E400A26532 /* Sample File */ = {
+			isa = PBXGroup;
+			children = (
+				2819DA37163436E400A26532 /* sample.csv */,
+				2819DA38163436E400A26532 /* sample.plist */,
+			);
+			name = "Sample File";
+			path = SampleFile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2819DA06163435DC00A26532 /* csv2plist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2819DA16163435DD00A26532 /* Build configuration list for PBXNativeTarget "csv2plist" */;
+			buildPhases = (
+				2819DA03163435DC00A26532 /* Sources */,
+				2819DA04163435DC00A26532 /* Frameworks */,
+				2819DA05163435DC00A26532 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = csv2plist;
+			productName = csv2plist;
+			productReference = 2819DA07163435DC00A26532 /* csv2plist */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2819D9FE163435DC00A26532 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = aliueKurone;
+			};
+			buildConfigurationList = 2819DA01163435DC00A26532 /* Build configuration list for PBXProject "csv2plist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2819D9FC163435DC00A26532;
+			productRefGroup = 2819DA08163435DC00A26532 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2819DA06163435DC00A26532 /* csv2plist */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2819DA03163435DC00A26532 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2819DA0F163435DC00A26532 /* main.m in Sources */,
+				2819DA2D1634363000A26532 /* ConverterDirector.m in Sources */,
+				2819DA2E1634363000A26532 /* CSVParser.m in Sources */,
+				2819DA2F1634363000A26532 /* CSVReadingState.m in Sources */,
+				2819DA301634363000A26532 /* PlistObjectTranslator.m in Sources */,
+				2819DA311634363000A26532 /* XMLConverter.m in Sources */,
+				2819DA321634363000A26532 /* NSObject+ConvertExtension.m in Sources */,
+				2819DA331634363000A26532 /* NSString+ConvertExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2819DA14163435DD00A26532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2819DA15163435DD00A26532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2819DA17163435DD00A26532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "csv2plist/csv2plist-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2819DA18163435DD00A26532 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "csv2plist/csv2plist-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2819DA01163435DC00A26532 /* Build configuration list for PBXProject "csv2plist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2819DA14163435DD00A26532 /* Debug */,
+				2819DA15163435DD00A26532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2819DA16163435DD00A26532 /* Build configuration list for PBXNativeTarget "csv2plist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2819DA17163435DD00A26532 /* Debug */,
+				2819DA18163435DD00A26532 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2819D9FE163435DC00A26532 /* Project object */;
+}
