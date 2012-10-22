@@ -32,11 +32,11 @@ generated plist data(item.plist)
   <?xml version="1.0" encoding="UTF-8" standalone="no"?>
   <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
   <plist version="1.0">
-  <array>
-      <dict>
-        <key>index</key>
-          <integer>1</integer>
-            <key>item</key>
+  	<array>
+  		<dict>
+  			<key>index</key>
+  			<integer>1</integer>
+  			<key>item</key>
   			<string>peach></string>
   			<key>number</key>
   			<integer>20</integer>
