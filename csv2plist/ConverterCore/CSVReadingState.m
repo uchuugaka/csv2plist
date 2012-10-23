@@ -9,7 +9,6 @@
 #import "CSVReadingState.h"
 
 
-
 @implementation CSVReadingState
 
 @synthesize currentState = _currentState;

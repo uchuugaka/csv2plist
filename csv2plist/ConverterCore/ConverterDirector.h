@@ -37,7 +37,6 @@
 - (void)setTagetCSVFilePath:(NSString *)argFilePath;
 
 - (void)setDataTypeToColumn:(BOOL)argBOOL;  // option
-- (void)setDataTypeInNode:(NSArray *)argDataTypeList; // option
 
 - (void)construct;
 - (NSXMLDocument *)result;

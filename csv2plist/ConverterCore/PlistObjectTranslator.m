@@ -110,7 +110,7 @@ if (*argNameTag == NSStringZeroLength) {
 
 #pragma mark - 
 
-- (PlistObjectTranslatorDataType)plistObjectTranslatorDataTypeTypeWithDataType:(NSString *)argDataTypeString
+- (PlistObjectTranslatorDataType)plistObjectTranslatorDataTypeWithDataType:(NSString *)argDataTypeString
 {
   PlistObjectTranslatorDataType result;
   

@@ -8,7 +8,7 @@
 
 // 間違えないように
 // [xmlDocument rootElement] ⇨ <plist>
-// [[xmlDocument rootElement] objectAtIndex:0] ⇨ ルート辞書 or ルート配列
+// [[xmlDocument rootElement] objectAtIndex:0] ⇨ ルート配列
 
 #import "XMLConverter.h"
 #import "PlistObjectTranslator.h"
@@ -20,6 +20,7 @@
 @interface XMLConverter()
 
 @property (nonatomic, retain) NSArray *headerKeyList;
+@property (nonatomic, retain) NSArray *dataTypesInNode; 
 
 - (void)_addNode:(NSXMLElement *)argElement toRootObjectWithStringValue:(NSString *)argValue column:(NSUInteger)column row:(NSUInteger)row;
 
@@ -151,7 +152,7 @@
             [exception raise];
           }
           
-          NSNumber *enumNumber = [NSNumber numberWithInteger:[_translator plistObjectTranslatorDataTypeTypeWithDataType:content]];
+          NSNumber *enumNumber = [NSNumber numberWithInteger:[_translator plistObjectTranslatorDataTypeWithDataType:content]];
           [dataTypes addObject:enumNumber];
         }
         
@@ -190,10 +191,6 @@
   
   NSLog(@"rootDocument %@", _xmlDoc);
   NSLog(@"childCount %lu", [rootObject childCount]);
-  
-  // 試しに書き出す
-  NSData *data = [_xmlDoc XMLData];
-  [data writeToFile:@"/Users/kaku/test.plist" atomically:YES];
 #endif
 }
 

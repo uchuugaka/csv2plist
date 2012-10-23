@@ -17,8 +17,6 @@
     
   NSString *_targetFilePath;
   
-  NSArray *_dataTypeInNode;
-  
 }
 
 - (id)init
@@ -39,7 +37,6 @@
 {
   [_parser release];
   [_converter release];
-  [_dataTypeInNode release];
   
   [super dealloc];
 }
@@ -57,18 +54,11 @@
 }
 
 
-- (void)setDataTypeInNode:(NSArray *)argDataTypeList
-{
-  _dataTypeInNode = argDataTypeList;
-  [_dataTypeInNode retain];
-}
-
 #pragma mark - construct
 
 - (void)construct
 {
   [_parser parseFileDataWithFilePath:_targetFilePath];
-  [_converter setDataTypesInNode:_dataTypeInNode];
   [_converter prepareForBuild];
   
   [_converter buildXMLTree];

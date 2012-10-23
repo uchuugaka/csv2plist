@@ -10,7 +10,7 @@ Usage
 csv2plist [option] -i [inputFilePath...] -o [outputFilePath...]
 
 option
-  -datatype		this option apply data type at 2 column to this row
+  -datatype		this option apply data type at 2 column to this row.
   kind of data type
   String
   Number
@@ -18,7 +18,7 @@ option
   Data
   Boolean
    
-   ex. convert item.csv 
+   ex. convert item.csv
    (item.csv)
    index,item,number
    Number,String,Number

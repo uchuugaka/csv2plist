@@ -122,7 +122,6 @@ NSString * const CSVContentInfoRowCountKey = @"rowCount";
 {
   NSArray *array = [aLine componentsSeparatedByString:@","];
   
-  
   /*--- ここでfileInfo に列数の情報が挿入される ---*/
   [_fileInfo setObject:[NSNumber numberWithUnsignedLong:[array count]] forKey:CSVContentInfoColumnCountKey];
 //  NSLog(@"column %lu", [array count]);

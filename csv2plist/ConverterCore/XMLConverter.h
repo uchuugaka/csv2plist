@@ -50,7 +50,7 @@ typedef enum _XMLConverterState{
 
 @property (nonatomic, getter = isDataTypeToColumn) BOOL dataTypeToColumn; // csvファイルの2行目から各列のデータ型情報を読み込むフラグ。YES:読み込む NO:読み込まない
 @property (nonatomic, readonly) NSXMLDocument *rootDocument;
-@property (nonatomic, retain) NSArray *dataTypesInNode;
+
 
 @property (nonatomic, assign) id<XMLConverterDataSource> dataSource;
 

@@ -32,5 +32,5 @@ typedef enum {
 - (NSString *)plistObjectValueWithStringValue:(NSString *)argString specifyDataType:(PlistObjectTranslatorDataType)argDataType returnedNameTag:(NSString **)argNameTag;
 
 
-- (PlistObjectTranslatorDataType)plistObjectTranslatorDataTypeTypeWithDataType:(NSString *)argDataTypeString; // データタイプ⇨データタイプEnumに変換
+- (PlistObjectTranslatorDataType)plistObjectTranslatorDataTypeWithDataType:(NSString *)argDataTypeString; // データタイプ⇨データタイプEnumに変換
 @end
